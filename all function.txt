@@ -1,0 +1,60 @@
+loginApi
+signupApi
+sendotpEMailApi
+otpVerificationApi
+resendOtpApi
+forgotPasswordApi
+ForgetSendOtpToEmailApi
+
+login_start
+login_success
+login_failed
+login_reset
+
+signup_start
+signup_success
+sighup_failed
+
+
+amount.js
+addAmount
+getAmountListApi
+createPaymentApi
+getTransactionHistoryapi
+contactDetailsApi
+paymentImage
+invoiceDownload
+
+
+my-nextjs-app/
+├── public/
+│   ├── images/
+│   ├── favicon.ico
+│   └── other-static-assets/
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── other-pages/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── other-components/
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── other-styles/
+│   ├── lib/
+│   ├── hooks/
+│   ├── context/
+│   └── utils/
+├── pages/
+│   ├── api/
+│   │   ├── hello.js
+│   ├── _app.js
+│   ├── _document.js
+│   └── index.js
+├── .env.local
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md

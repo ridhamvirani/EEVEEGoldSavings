@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #ffd700;
+  --secondary: #a020f0;
+  --gray: #71717a;
+  --black: #000000;
+  --black_text: #000000d9;
+  --white: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.6);
+  --policy-text: #919191;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.custom-phone-input .PhoneInputInput {
+  border: 2px solid #4caf50 !important;
+  padding: 10px !important;
+  background-color: red !important;
+  border-radius: 5px !important;
+}
+
+.custom-phone-input .PhoneInputCountrySelect {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.custom-phone-input .PhoneInputCountryIcon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.custom-phone-input .PhoneInputCountryIcon:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.otpSection {
+  input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(209, 213, 219) !important;
+    padding: 0 !important;
+    color: black !important;
+
+    &:hover {
+      border: none;
+    }
+
+    &:focus {
+      border: none;
+      box-shadow: none;
+      outline: none !important;
+    }
+
+    &::-webkit-input-placeholder {
+      color: black;
+    }
+  }
+}
+
+.resentOtpStyle button span::after {
+  background: none !important;
+}
+
+.fund-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.input-group,
+.dropdown-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.fund-input,
+.fund-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.fund-select {
+  background-color: #fff;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+
+.navMenuItems li::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--theme-color);
+  transition: 0.5s transform ease;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 100% 50%;
+}
+
+.navMenuItems li:hover::before {
+  transform: scale3d(1, 1, 1);
+  transform-origin: 0 50%;
+}
+
+
