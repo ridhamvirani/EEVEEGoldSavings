@@ -27,49 +27,117 @@ export const Routes = [
     },
 ]
 
+// export const Features = [
+//     {
+//         title: "First Contribution",
+//         details: "Make your initial purchase to qualify for the 16+1 program."
+//     },
+//     {
+//         title: "Monthly Commitment",
+//         details: "Purchase the same amount for 16 consecutive months."
+//     },
+//     {
+//         title: "No Fees",
+//         details: "Your 17th month’s deposit is fully covered by us."
+//     },
+//     {
+//         title: "Free Month",
+//         details: "Enjoy this bonus with zero hidden charges or extra costs."
+//     },
+//     {
+//         title: "Progress Tracker",
+//         details: "Monitor your journey through your personalized dashboard."
+//     },
+//     {
+//         title: "Loyalty Reward",
+//         details: "Receive special rewards for staying consistent with your plan."
+//     },
+//     {
+//         title: "Gold Growth",
+//         details: "Enhance your gold collection with the added bonus month."
+//     },
+//     {
+//         title: "Simple Start",
+//         details: "Join today and get gold of  17th month free after completing 16 months!"
+//     },
+// ]
 export const Features = [
     {
-        title: "First Contribution",
-        details: "Make your initial deposit to qualify for the 16+1 program."
+        title: "Initial Gold Purchase",
+        details: "Make your first digital gold purchase to kickstart your journey."
     },
     {
-        title: "Monthly Commitment",
-        details: "Contribute the same amount for 16 consecutive months."
+        title: "Consistent Investment",
+        details: "Purchase digital gold of the same amount at designated times."
     },
     {
-        title: "No Fees",
-        details: "Your 17th month’s deposit is fully covered by us."
+        title: "Zero Transaction Fees",
+        details: "No additional fees for your transactions—your investment is straightforward."
     },
     {
-        title: "Free Month",
-        details: "Enjoy this bonus with zero hidden charges or extra costs."
+        title: "Incentive Bonuses",
+        details: "Earn bonuses for each purchase, which can be given as incentives (EEVEE)."
     },
     {
-        title: "Progress Tracker",
-        details: "Monitor your journey through your personalized dashboard."
+        title: "Progress Tracking",
+        details: "Easily monitor your investments and bonuses through your personalized dashboard."
     },
     {
-        title: "Loyalty Reward",
-        details: "Receive special rewards for staying consistent with your plan."
+        title: "Loyalty Incentives",
+        details: "Receive exclusive rewards for maintaining your purchasing schedule."
     },
     {
-        title: "Gold Growth",
-        details: "Enhance your gold collection with the added bonus month."
+        title: "Digital Gold Growth",
+        details: "Boost your digital gold collection with earned incentives over time."
     },
     {
-        title: "Simple Start",
-        details: "Join today and unlock your 17th month free after completing 16 months!"
+        title: "Easy Enrollment",
+        details: "Join today to start purchasing digital gold and unlock incentives effortlessly."
     },
 ]
 
+// export const Features_About = [
+//     {
+//         title: "16+1 Reward Program",
+//         details: "Offers a free 17th month for loyal users."
+//     },
+//     {
+//         title: "MGold Platform",
+//         details: "50k+ active members, 99% happy customers, and over 1 million in managed assets."
+//     },
+//     {
+//         title: "Ease of Use",
+//         details: "Quick account creation, real-time dashboards, and 24/7 tracking."
+//     },
+//     {
+//         title: "Wealth Growth",
+//         details: "Enhance your returns with minimal effort."
+//     },
+//     {
+//         title: "Loyalty Rewards",
+//         details: "Unique programs that reward users for long-term commitment."
+//     },
+//     {
+//         title: "Transparency",
+//         details: "Clear terms, no hidden fees, and progress tracking tools."
+//     },
+//     {
+//         title: "Additional Free Month",
+//         details: "Enjoy an extra month with no extra cost."
+//     },
+//     {
+//         title: "Company Values",
+//         details: "Focus on customer satisfaction, trust, innovation, and growth."
+//     },
+// ]
 export const Features_About = [
     {
-        title: "16+1 Reward Program",
-        details: "Offers a free 17th month for loyal users."
+        title: "Incentives for Commitment",
+        details: "Earn valuable incentives for your ongoing contributions."
     },
     {
-        title: "MGold Platform",
-        details: "50k+ active members, 99% happy customers, and over 1 million in managed assets."
+        title: "Gold Platform",
+        details: "50k+ active members, 99% happy customers, and over $1 million in managed assets."
     },
     {
         title: "Ease of Use",
@@ -77,23 +145,23 @@ export const Features_About = [
     },
     {
         title: "Wealth Growth",
-        details: "Enhance your returns with minimal effort."
+        details: "Enhance your returns with minimal effort and effective strategies."
     },
     {
-        title: "Loyalty Rewards",
+        title: "Loyalty Incentives",
         details: "Unique programs that reward users for long-term commitment."
     },
     {
         title: "Transparency",
-        details: "Clear terms, no hidden fees, and progress tracking tools."
+        details: "Clear terms, no hidden fees, and tools for tracking your progress."
     },
     {
-        title: "Additional Free Month",
-        details: "Enjoy an extra month with no extra cost."
+        title: "Bonus Month",
+        details: "Enjoy an additional month of contributions with no extra cost."
     },
     {
         title: "Company Values",
-        details: "Focus on customer satisfaction, trust, innovation, and growth."
+        details: "Focused on customer satisfaction, trust, innovation, and growth."
     },
 ]
 
@@ -178,8 +246,9 @@ export const AccountSteps = [
     },
     {
         id: "05",
-        title: "Start Investing",
-        details: "You’re all set! Begin your journey by making your first deposit and unlock the benefits of our unique gold-building plans."
+        title: "Start Purchasing",
+        // details: "You’re ready to go! Start your journey by making your first purchase and unlock the benefits of our unique gold-building plans."
+        details: "Start your journey by purchasing digital gold, setting the stage for future incentives."
     },
 ]
 

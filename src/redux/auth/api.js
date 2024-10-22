@@ -44,7 +44,6 @@ api.interceptors.response.use(
   }
 );
 
-
 // {{baseUrl}}/user/payment
 
 export default api;
